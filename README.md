@@ -67,14 +67,7 @@ Explorons la structure :
 
 Pour ce 1er, votre mission sera de corriger le test suivant ; en cherchant dans la documentation à comprendre ce qui se déroule.
 
-Créer le fichier `cypress/integration/spec.js` avec le contenu suivant :
-
-```
-it('loads', () => {
-  cy.visit('localhost:3000')
-  cy.contains('h1', 'Todos App')
-})
-```
+Créer le fichier `cypress/integration/spec.js` avec le contenu du fichier `cypress/cypress/integration/01-basic/spec.js` 
 
 La documentation est votre [meilleure amie](https://docs.cypress.io/)
 
@@ -90,6 +83,8 @@ La documentation est votre [meilleure amie](https://docs.cypress.io/)
 Nous souhaitons :
 - vérifier que la liste est vide au démarrage (cy.get, should('have.length', ...),
 - ajouter un TODO et vérifier que la liste est correcte (cy.get, cy.type, cy.contains)
+
+Mettez à jour votre fichier spec.js avec le contenu du fichier `cypress/cypress/integration/02-adding-items/spec.js` 
 
 
 

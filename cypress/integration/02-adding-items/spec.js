@@ -20,21 +20,3 @@ it('adds two items', () => {
   //    assert that the new Todo item
   //    has been added added to the list
 })
-
-it('can add many items', () => {
-  const N = 5
-  for (let k = 0; k < N; k += 1) {
-    // add an item
-    // probably want to have a reusable function to add an item!
-  }
-  // check number of items
-})
-
-it('can mark items as completed', () => {
-  // add a few items
-  // mark items as completed
-  // select completed items and confirm their number
-})
-
-// what a challenge?
-// test more UI at http://todomvc.com/examples/vue/
